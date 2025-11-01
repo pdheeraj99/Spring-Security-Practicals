@@ -6,6 +6,22 @@
 	},
 	"item": [
 		{
+			"name": "usap",
+			"item": [
+				{
+					"name": "Authentication",
+					"item": [],
+					"id": "45060664-e0d988ca-1c7e-4120-84d5-b8ac0eebbdf6"
+				},
+				{
+					"name": "Authorization",
+					"item": [],
+					"id": "45060664-7a709070-a168-435a-b1f3-430c44fa77d8"
+				}
+			],
+			"id": "45060664-6de93a81-12f3-4217-9ff5-7b4d7e026947"
+		},
+		{
 			"name": "New Request",
 			"id": "45060664-cb098061-12d7-4605-a370-3c2fc961b47b",
 			"protocolProfileBehavior": {
@@ -24,6 +40,18 @@
 						""
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "45060664-21c87f38-d16e-4a22-a458-0683721b971a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
